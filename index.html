@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO -->
+    <title>Al Rayaan | Contracting & Construction Services Oman</title>
+    <meta name="description" content="Al Rayaan Contracting delivers premium construction, finishing, and manpower supply across Oman. ISO-certified, 150+ projects completed. Request a free quote today.">
+    <meta name="keywords" content="construction Oman, manpower supply Oman, contracting company Muscat, villa construction, commercial finishing, skilled workers Oman, Al Rayaan">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Al Rayaan Contracting & Construction">
+    <link rel="canonical" href="https://alrayaan.vercel.app/">
+
+    <!-- Open Graph / LinkedIn -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alrayaan.vercel.app/">
+    <meta property="og:title" content="Al Rayaan | Contracting & Construction Services Oman">
+    <meta property="og:description" content="Premium construction, finishing, and skilled manpower supply across Oman. 150+ projects delivered.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&h=630&fit=crop">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://alrayaan.vercel.app/">
+    <meta name="twitter:title" content="Al Rayaan | Contracting & Construction Services Oman">
+    <meta name="twitter:description" content="Premium construction, finishing, and skilled manpower supply across Oman.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&h=630&fit=crop">
+
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ConstructionBusiness",
+      "name": "Al Rayaan Contracting & Construction",
+      "image": "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=1200&h=630&fit=crop",
+      "telephone": "+96890606216",
+      "email": "asemalmasry27@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Al Khoudh, Al Seeb",
+        "addressLocality": "Muscat",
+        "addressCountry": "OM"
+      },
+      "url": "https://alrayaan.vercel.app/",
+      "priceRange": "$$",
+      "openingHoursSpecification": [
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Sunday","Monday","Tuesday","Wednesday","Thursday"], "opens": "08:00", "closes": "18:00" },
+        { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "09:00", "closes": "13:00" }
+      ]
+    }
+    </script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --deep-blue: #1e3a8a;
+            --deep-blue-light: #1e40af;
+            --primary-gold: #c9a227;
+            --primary-gold-dark: #b8860b;
+            --sand: #f5f5dc;
+            --sand-dark: #e6d5a7;
+            --text-light: #4b5563;
+            --text-dark: #111827;
+            --white: #ffffff;
+            --emerald: #10b981;
+            --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            --shadow-sm: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-md: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Inter', 'Noto Sans Arabic', sans-serif; color: var(--text-dark); background: var(--white); line-height: 1.6; overflow-x: hidden; }
+        a { text-decoration: none; color: inherit; transition: var(--transition-smooth); }
+        ul { list-style: none; }
+        img { max-width: 100%; display: block; }
+        section { padding: 5rem 2rem; max-width: 1280px; margin: 0 auto; }
+        .container { max-width: 1200px; margin: 0 auto; }
+
+        /* HEADER & NAV */
+        header { position: fixed; top: 0; left: 0; right: 0; background: rgba(255,255,255,0.95); backdrop-filter: blur(10px); box-shadow: var(--shadow-sm); z-index: 1000; padding: 1rem 2rem; }
+        .nav-container { display: flex; justify-content: space-between; align-items: center; max-width: 1280px; margin: 0 auto; position: relative; }
+        .logo { font-size: 1.8rem; font-weight: 700; color: var(--deep-blue); }
+        .logo span { color: var(--primary-gold); }
+        .nav-links { display: flex; gap: 2rem; align-items: center; }
+        .nav-links a { font-weight: 500; color: var(--text-dark); }
+        .nav-links a:hover { color: var(--primary-gold); }
+        .lang-toggle { background: var(--sand); border: 1px solid var(--sand-dark); padding: 0.5rem 1rem; border-radius: 8px; cursor: pointer; font-weight: 600; font-family: inherit; }
+        .mobile-menu-btn { display: none; background: none; border: none; font-size: 1.5rem; color: var(--deep-blue); cursor: pointer; }
+
+        @media (max-width: 768px) {
+            .mobile-menu-btn { display: block; }
+            .nav-links { display: none; position: absolute; top: 100%; left: 0; right: 0; background: var(--white); flex-direction: column; padding: 1.5rem; box-shadow: var(--shadow-md); gap: 1.5rem; }
+            .nav-links.active { display: flex; }
+        }
+
+        /* HERO */
+        .hero { padding-top: 120px; padding-bottom: 4rem; text-align: center; background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%); }
+        .hero h1 { font-size: 3rem; color: var(--deep-blue); margin-bottom: 1rem; }
+        .hero p { font-size: 1.2rem; color: var(--text-light); max-width: 700px; margin: 0 auto 2rem; }
+        .btn { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.8rem 1.8rem; background: var(--primary-gold); color: var(--white); font-weight: 600; border-radius: 8px; transition: var(--transition-smooth); cursor: pointer; border: none; font-size: 1rem; }
+        .btn:hover { background: var(--primary-gold-dark); transform: translateY(-2px); }
+        .hero-stats { display: flex; justify-content: center; gap: 3rem; margin: 3rem 0; flex-wrap: wrap; }
+        .stat-item { text-align: center; }
+        .stat-item h3 { font-size: 2.5rem; color: var(--primary-gold); font-weight: 700; }
+        .stat-item p { color: var(--text-light); font-size: 0.9rem; font-weight: 500; }
+        .trust-badges { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin-top: 2rem; padding: 1rem; background: var(--white); border-radius: 12px; box-shadow: var(--shadow-sm); }
+        .trust-badges span { display: flex; align-items: center; gap: 0.5rem; color: var(--deep-blue); font-weight: 500; }
+        .trust-badges i { color: var(--emerald); }
+
+        /* SERVICES */
+        .section-title { text-align: center; font-size: 2.2rem; color: var(--deep-blue); margin-bottom: 0.5rem; }
+        .section-subtitle { text-align: center; color: var(--text-light); margin-bottom: 3rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+        .service-card { background: var(--white); border-radius: 16px; overflow: hidden; box-shadow: var(--shadow-sm); border: 1px solid #e5e7eb; display: flex; flex-direction: column; height: 100%; transition: var(--transition-smooth); }
+        .service-card:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+        .service-image { width: 100%; height: 200px; overflow: hidden; margin: 0; }
+        .service-image img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .service-card:hover .service-image img { transform: scale(1.1); }
+        .service-content { padding: 1.5rem; flex-grow: 1; display: flex; flex-direction: column; }
+        .service-icon { width: 50px; height: 50px; background: var(--sand); border-radius: 12px; display: flex; align-items: center; justify-content: center; margin-bottom: 1rem; color: var(--primary-gold); font-size: 1.4rem; }
+        .service-content h3 { font-size: 1.3rem; margin-bottom: 0.75rem; color: var(--deep-blue); }
+        .service-content p { color: var(--text-light); font-size: 0.95rem; margin-bottom: 1rem; flex-grow: 1; }
+        .service-features li { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.4rem; color: var(--text-light); font-size: 0.85rem; }
+        .service-features i { color: var(--emerald); font-size: 0.75rem; }
+        .service-link { display: inline-flex; align-items: center; gap: 0.5rem; color: var(--primary-gold-dark); font-weight: 600; margin-top: auto; }
+        .service-link:hover { color: var(--deep-blue); }
+        .service-category-title { font-size: 1.8rem; color: var(--deep-blue); margin: 3rem 0 2rem; padding-bottom: 0.5rem; border-bottom: 3px solid var(--primary-gold); display: inline-block; }
+
+        @media (max-width: 768px) { .service-image { height: 160px; } .service-category-title { font-size: 1.5rem; } }
+
+        /* WHY US */
+        .features-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 2rem; }
+        .feature-box { background: var(--white); padding: 2rem; border-radius: 12px; border: 1px solid #e5e7eb; text-align: center; }
+        .feature-box i { font-size: 2rem; color: var(--primary-gold); margin-bottom: 1rem; }
+        .feature-box h3 { font-size: 1.2rem; margin-bottom: 0.5rem; color: var(--deep-blue); }
+        .feature-box p { font-size: 0.9rem; color: var(--text-light); }
+
+        /* CAROUSEL */
+        .carousel-container { position: relative; max-width: 1200px; margin: 2rem auto; display: flex; align-items: center; gap: 1rem; }
+        .carousel-track { display: flex; gap: 1.5rem; overflow-x: auto; scroll-snap-type: x mandatory; scrollbar-width: none; -ms-overflow-style: none; padding: 1rem 0; flex: 1; }
+        .carousel-track::-webkit-scrollbar { display: none; }
+        .carousel-slide { flex: 0 0 calc(33.333% - 1rem); scroll-snap-align: start; position: relative; border-radius: 16px; overflow: hidden; height: 350px; cursor: pointer; }
+        .carousel-slide img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.5s ease; }
+        .carousel-slide:hover img { transform: scale(1.05); }
+        .slide-overlay { position: absolute; bottom: 0; left: 0; right: 0; background: linear-gradient(transparent, rgba(0,0,0,0.85)); padding: 1.5rem; color: var(--white); }
+        .slide-overlay h3 { font-size: 1.2rem; margin-bottom: 0.25rem; }
+        .slide-overlay p { font-size: 0.9rem; opacity: 0.85; margin: 0; }
+        .carousel-btn { position: absolute; top: 50%; transform: translateY(-50%); width: 45px; height: 45px; border-radius: 50%; background: var(--white); border: 1px solid #e5e7eb; display: flex; align-items: center; justify-content: center; cursor: pointer; box-shadow: var(--shadow-sm); z-index: 10; transition: var(--transition-smooth); }
+        .carousel-btn:hover { background: var(--primary-gold); color: var(--white); border-color: var(--primary-gold); }
+        .carousel-btn.prev { left: -25px; } .carousel-btn.next { right: -25px; }
+        @media (max-width: 992px) { .carousel-slide { flex: 0 0 calc(50% - 0.75rem); } }
+        @media (max-width: 640px) { .carousel-slide { flex: 0 0 100%; } .carousel-btn { display: none; } }
+
+        /* ABOUT */
+        .about-content { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; margin-bottom: 4rem; }
+        .about-image { position: relative; border-radius: 16px; overflow: hidden; }
+        .experience-badge { position: absolute; bottom: -20px; right: 20px; background: var(--deep-blue); color: var(--white); padding: 1rem 1.5rem; border-radius: 12px; text-align: center; box-shadow: var(--shadow-md); }
+        .experience-badge h3 { font-size: 1.8rem; color: var(--primary-gold); margin: 0; }
+        .experience-badge p { font-size: 0.85rem; margin: 0; }
+        .about-text h3 { font-size: 2rem; color: var(--deep-blue); margin-bottom: 1rem; }
+        .about-text p { margin-bottom: 1rem; color: var(--text-light); }
+        
+        .construction-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 2rem 0; padding: 1.5rem; background: var(--sand); border-radius: 12px; border: 1px solid var(--sand-dark); }
+        .con-stat { display: flex; align-items: center; gap: 1rem; padding: 0.5rem; }
+        .con-stat i { font-size: 1.5rem; color: var(--primary-gold); background: var(--white); width: 45px; height: 45px; display: flex; align-items: center; justify-content: center; border-radius: 10px; }
+        .con-stat h4 { font-size: 1.3rem; color: var(--deep-blue); margin: 0; line-height: 1.1; }
+        .con-stat span { font-size: 0.8rem; color: var(--text-light); display: block; }
+        .features-list li { display: flex; align-items: flex-start; gap: 0.75rem; margin-bottom: 0.75rem; color: var(--text-dark); }
+        .features-list i { color: var(--emerald); margin-top: 0.2rem; }
+
+        .capabilities-section { margin-top: 4rem; padding-top: 3rem; border-top: 2px solid var(--sand-dark); }
+        .capabilities-section h3 { text-align: center; font-size: 1.8rem; color: var(--deep-blue); margin-bottom: 2rem; }
+        .capabilities-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; }
+        .capability-item { background: var(--white); padding: 1.5rem; border-radius: 12px; border: 1px solid #e5e7eb; text-align: center; transition: var(--transition-smooth); }
+        .capability-item:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+        .capability-icon { width: 60px; height: 60px; background: linear-gradient(135deg, var(--primary-gold) 0%, var(--primary-gold-dark) 100%); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; color: var(--white); font-size: 1.5rem; }
+        .capability-item h4 { font-size: 1.1rem; margin-bottom: 0.5rem; color: var(--deep-blue); }
+        .capability-item p { font-size: 0.9rem; color: var(--text-light); }
+
+        .quality-promise { margin-top: 4rem; background: linear-gradient(135deg, var(--deep-blue) 0%, var(--deep-blue-light) 100%); border-radius: 16px; padding: 3rem; color: var(--white); text-align: center; position: relative; overflow: hidden; }
+        .quality-promise::before { content: ''; position: absolute; top: -50%; right: -10%; width: 300px; height: 300px; background: radial-gradient(circle, rgba(201,162,39,0.2) 0%, transparent 70%); border-radius: 50%; }
+        .quality-promise i { font-size: 2.5rem; color: var(--primary-gold); margin-bottom: 1rem; position: relative; z-index: 1; }
+        .quality-promise h3 { font-size: 1.8rem; margin-bottom: 1rem; position: relative; z-index: 1; }
+        .quality-promise p { max-width: 800px; margin: 0 auto; opacity: 0.9; line-height: 1.7; position: relative; z-index: 1; }
+
+        @media (max-width: 992px) { .about-content { grid-template-columns: 1fr; } }
+        @media (max-width: 768px) { .construction-stats { grid-template-columns: 1fr; } .capabilities-grid { grid-template-columns: 1fr; } }
+
+        /* CONTACT */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; }
+        .contact-info h3 { font-size: 2rem; color: var(--deep-blue); margin-bottom: 1.5rem; }
+        .contact-item { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.5rem; }
+        .contact-item i { color: var(--primary-gold); font-size: 1.2rem; margin-top: 0.2rem; }
+        .contact-form { background: var(--sand); padding: 2rem; border-radius: 16px; border: 1px solid var(--sand-dark); }
+        .form-group { margin-bottom: 1rem; }
+        .form-group label { display: block; margin-bottom: 0.5rem; font-weight: 500; }
+        .form-group input, .form-group select, .form-group textarea { width: 100%; padding: 0.8rem; border: 1px solid #ccc; border-radius: 8px; font-family: inherit; }
+        .form-group textarea { height: 100px; resize: vertical; }
+        .submit-btn { width: 100%; padding: 1rem; background: var(--deep-blue); color: var(--white); border: none; border-radius: 8px; font-weight: 600; cursor: pointer; transition: var(--transition-smooth); }
+        .submit-btn:hover { background: var(--deep-blue-light); }
+        .submit-btn:disabled { opacity: 0.7; cursor: not-allowed; }
+        @media (max-width: 992px) { .contact-grid { grid-template-columns: 1fr; } }
+
+        /* FOOTER */
+        footer { background: var(--deep-blue); color: var(--white); padding: 3rem 2rem 2rem; text-align: center; }
+        .footer-links { display: flex; justify-content: center; gap: 2rem; margin: 1.5rem 0; flex-wrap: wrap; }
+        .footer-links a:hover { color: var(--primary-gold); }
+        .copyright { font-size: 0.85rem; opacity: 0.7; margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.2); padding-top: 1rem; }
+
+        /* UTILITIES & ANIMATIONS */
+        .fade-in { opacity: 0; transform: translateY(20px); transition: opacity 0.6s ease-out, transform 0.6s ease-out; }
+        .fade-in.visible { opacity: 1; transform: translateY(0); }
+        
+        /* RTL */
+        [dir="rtl"] { font-family: 'Noto Sans Arabic', sans-serif; text-align: right; }
+        [dir="rtl"] .nav-container, [dir="rtl"] .hero, [dir="rtl"] .about-content, [dir="rtl"] .contact-grid { direction: rtl; }
+        [dir="rtl"] .con-stat { flex-direction: row-reverse; }
+        [dir="rtl"] .features-list li { flex-direction: row-reverse; }
+        [dir="rtl"] .carousel-btn.prev { left: auto; right: -25px; transform: translateY(-50%) rotate(180deg); }
+        [dir="rtl"] .carousel-btn.next { right: auto; left: -25px; transform: translateY(-50%) rotate(180deg); }
+    </style>
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="nav-container">
+            <a href="#" class="logo">Al <span>Rayaan</span></a>
+            <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" data-i18n="navHome">Home</a>
+                <a href="#services" data-i18n="navServices">Services</a>
+                <a href="#projects" data-i18n="navProjects">Projects</a>
+                <a href="#about" data-i18n="navAbout">About</a>
+                <a href="#contact" data-i18n="navContact">Contact</a>
+                <button class="lang-toggle" id="langToggle">العربية</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+        <div class="container fade-in">
+            <h1 data-i18n="heroTitle">Your Trusted Partner in Construction & Manpower</h1>
+            <p data-i18n="heroSubtitle">Delivering quality projects and skilled workforce across Oman, tailored to residential, commercial, and industrial needs.</p>
+            <a href="#contact" class="btn"><span data-i18n="heroBtn">Request Consultation</span> <i class="fas fa-arrow-right"></i></a>
+            
+            <div class="hero-stats">
+                <div class="stat-item"><h3>150+</h3><p data-i18n="statProjects">Projects Completed</p></div>
+                <div class="stat-item"><h3>50K+</h3><p data-i18n="statSqm">Sq Meters Built</p></div>
+                <div class="stat-item"><h3>10+</h3><p data-i18n="statYears">Years Experience</p></div>
+            </div>
+
+            <div class="trust-badges">
+                <span><i class="fas fa-check-circle"></i> <span data-i18n="badgeVerified">Verified Workers</span></span>
+                <span><i class="fas fa-check-circle"></i> <span data-i18n="badgeChecked">Background Checked</span></span>
+                <span><i class="fas fa-check-circle"></i> <span data-i18n="badgeQuick">Quick Deployment</span></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services">
+        <div class="container fade-in">
+            <h2 class="section-title" data-i18n="servicesTitle">Our Services</h2>
+            <p class="section-subtitle" data-i18n="servicesSubtitle">Comprehensive construction and manpower solutions across Oman, delivering quality projects and skilled workforce.</p>
+
+            <h3 class="service-category-title fade-in" data-i18n="constructionServices">Construction & Finishing</h3>
+            <div class="services-grid construction-grid">
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&h=400&fit=crop" alt="Construction"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-hard-hat"></i></div>
+                        <h3 data-i18n="serviceConstruction">General Construction</h3>
+                        <p data-i18n="serviceConstructionDesc">Full-scale construction services from foundation to finishing. We handle residential villas, commercial buildings, and industrial facilities with precision engineering and quality materials that meet Oman Vision 2040 standards.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featCon1">Structural concrete work</span></li><li><i class="fas fa-check"></i><span data-i18n="featCon2">Steel reinforcement</span></li><li><i class="fas fa-check"></i><span data-i18n="featCon3">Masonry & block work</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=600&h=400&fit=crop" alt="Finishing"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-paint-roller"></i></div>
+                        <h3 data-i18n="serviceFinishing">Interior & Exterior Finishing</h3>
+                        <p data-i18n="serviceFinishingDesc">Complete finishing solutions that transform structures into polished spaces. From gypsum works and false ceilings to exterior cladding and façade treatments, we ensure weather-resistant, aesthetically pleasing results.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featFin1">Gypsum & false ceiling</span></li><li><i class="fas fa-check"></i><span data-i18n="featFin2">Wall cladding systems</span></li><li><i class="fas fa-check"></i><span data-i18n="featFin3">Exterior façade work</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1562259949-e8e7689d7828?w=600&h=400&fit=crop" alt="Painting"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-fill-drip"></i></div>
+                        <h3 data-i18n="servicePainting">Professional Painting</h3>
+                        <p data-i18n="servicePaintingDesc">Premium painting services for interiors and exteriors using weather-resistant, low-VOC paints suitable for Oman's climate. We deliver flawless finishes with proper surface preparation and protective coatings.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featPaint1">Interior & exterior painting</span></li><li><i class="fas fa-check"></i><span data-i18n="featPaint2">Waterproof coatings</span></li><li><i class="fas fa-check"></i><span data-i18n="featPaint3">Texture & decorative finishes</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop" alt="Electrical"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-bolt"></i></div>
+                        <h3 data-i18n="serviceElectrical">Electrical Works</h3>
+                        <p data-i18n="serviceElectricalDesc">Licensed electrical contracting services for new installations, upgrades, and maintenance. We comply with IEC standards and Oman regulations, ensuring safe, efficient power distribution for all building types.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featElec1">Complete wiring & distribution</span></li><li><i class="fas fa-check"></i><span data-i18n="featElec2">Panel installation & upgrades</span></li><li><i class="fas fa-check"></i><span data-i18n="featElec3">Lighting & smart home systems</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1585704032915-c3400ca199e7?w=600&h=400&fit=crop" alt="Plumbing"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-faucet"></i></div>
+                        <h3 data-i18n="servicePlumbing">Plumbing & Sanitary</h3>
+                        <p data-i18n="servicePlumbingDesc">Comprehensive plumbing installation and maintenance services. From water supply systems to drainage and sanitary fixtures, we ensure leak-free, code-compliant installations with quality materials.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featPlumb1">Water supply installation</span></li><li><i class="fas fa-check"></i><span data-i18n="featPlumb2">Drainage & sewage systems</span></li><li><i class="fas fa-check"></i><span data-i18n="featPlumb3">Fixture & sanitary ware</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1581092160562-40aa08e78837?w=600&h=400&fit=crop" alt="Tiles"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-th-large"></i></div>
+                        <h3 data-i18n="serviceTiles">Ceramic Tile Installation</h3>
+                        <p data-i18n="serviceTilesDesc">Expert tile installation for floors and walls using precision techniques. We handle all tile types including porcelain, ceramic, and large-format tiles with proper substrate preparation and waterproofing.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featTile1">Floor & wall tiling</span></li><li><i class="fas fa-check"></i><span data-i18n="featTile2">Waterproof membranes</span></li><li><i class="fas fa-check"></i><span data-i18n="featTile3">Custom patterns & designs</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=600&h=400&fit=crop" alt="Marble"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-gem"></i></div>
+                        <h3 data-i18n="serviceMarble">Marble Composition</h3>
+                        <p data-i18n="serviceMarbleDesc">Premium marble and natural stone installation for luxury finishes. We specialize in marble flooring, wall cladding, and custom compositions with professional sealing and polishing for lasting elegance.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featMarb1">Marble flooring & walls</span></li><li><i class="fas fa-check"></i><span data-i18n="featMarb2">Granite & natural stone</span></li><li><i class="fas fa-check"></i><span data-i18n="featMarb3">Polishing & sealing</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="service-card fade-in">
+                    <div class="service-image"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop" alt="Pavers"></div>
+                    <div class="service-content">
+                        <div class="service-icon"><i class="fas fa-border-all"></i></div>
+                        <h3 data-i18n="servicePavers">Interlocking Pavers</h3>
+                        <p data-i18n="servicePaversDesc">Professional installation of interlocking concrete pavers for driveways, walkways, and outdoor spaces. Proper base preparation and edge restraints ensure durable, flexible surfaces that withstand ground movement.</p>
+                        <ul class="service-features"><li><i class="fas fa-check"></i><span data-i18n="featPav1">Driveway & patio pavers</span></li><li><i class="fas fa-check"></i><span data-i18n="featPav2">Permeable paving systems</span></li><li><i class="fas fa-check"></i><span data-i18n="featPav3">Custom patterns & borders</span></li></ul>
+                        <a href="#contact" class="service-link"><span data-i18n="getQuote">Get Quote</span> <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="service-category-title fade-in" style="margin-top: 4rem;" data-i18n="manpowerServices">Manpower Supply</h3>
+            <div class="services-grid">
+                <div class="service-card fade-in"><div class="service-content"><div class="service-icon"><i class="fas fa-broom"></i></div><h3 data-i18n="serviceCleaning">Cleaning Services</h3><p data-i18n="serviceCleaningDesc">Professional cleaners for residential, commercial, and industrial facilities. Trained in modern cleaning techniques and safety protocols.</p><a href="#contact" class="service-link"><span data-i18n="learnMore">Learn More</span> <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="service-card fade-in"><div class="service-content"><div class="service-icon"><i class="fas fa-hands-helping"></i></div><h3 data-i18n="serviceHelpers">General Helpers</h3><p data-i18n="serviceHelpersDesc">Multi-skilled helpers for construction sites, warehouses, and logistics operations. Physically fit and safety-conscious.</p><a href="#contact" class="service-link"><span data-i18n="learnMore">Learn More</span> <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="service-card fade-in"><div class="service-content"><div class="service-icon"><i class="fas fa-truck"></i></div><h3 data-i18n="serviceDrivers">Drivers</h3><p data-i18n="serviceDriversDesc">Licensed drivers for light and heavy vehicles. Experienced in local routes with clean driving records and proper documentation.</p><a href="#contact" class="service-link"><span data-i18n="learnMore">Learn More</span> <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="service-card fade-in"><div class="service-content"><div class="service-icon"><i class="fas fa-shield-alt"></i></div><h3 data-i18n="serviceSecurity">Security Guards</h3><p data-i18n="serviceSecurityDesc">Licensed security personnel trained in surveillance, access control, and emergency response for your premises protection.</p><a href="#contact" class="service-link"><span data-i18n="learnMore">Learn More</span> <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="service-card fade-in"><div class="service-content"><div class="service-icon"><i class="fas fa-tools"></i></div><h3 data-i18n="serviceMaintenance">Maintenance Staff</h3><p data-i18n="serviceMaintenanceDesc">Skilled technicians for electrical, plumbing, HVAC, and general maintenance works in commercial and residential buildings.</p><a href="#contact" class="service-link"><span data-i18n="learnMore">Learn More</span> <i class="fas fa-arrow-right"></i></a></div></div>
+                <div class="service-card fade-in"><div class="service-content"><div class="service-icon"><i class="fas fa-user-tie"></i></div><h3 data-i18n="serviceOffice">Office Support</h3><p data-i18n="serviceOfficeDesc">Office assistants, receptionists, and administrative staff to support your daily business operations efficiently.</p><a href="#contact" class="service-link"><span data-i18n="learnMore">Learn More</span> <i class="fas fa-arrow-right"></i></a></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY US -->
+    <section id="why-us" style="background: #fafafa;">
+        <div class="container fade-in">
+            <h2 class="section-title" data-i18n="whyConstructionTitle">Why Choose Our Construction Services?</h2>
+            <p class="section-subtitle" data-i18n="whyConstructionSubtitle">Quality craftsmanship backed by industry certifications and local expertise.</p>
+            <div class="features-grid">
+                <div class="feature-box fade-in"><i class="fas fa-certificate"></i><h3 data-i18n="whyCon1Title">ISO Certified Quality</h3><p data-i18n="whyCon1Desc">We follow ISO 9001:2015 quality management systems and ISO 45001:2018 safety standards, ensuring every project meets international benchmarks required for Oman Vision 2040 projects.</p></div>
+                <div class="feature-box fade-in"><i class="fas fa-users-cog"></i><h3 data-i18n="whyCon2Title">Skilled Workforce</h3><p data-i18n="whyCon2Desc">Our teams include certified electricians, plumbers, and finishing specialists with extensive experience in Oman's construction sector and local building codes.</p></div>
+                <div class="feature-box fade-in"><i class="fas fa-shield-alt"></i><h3 data-i18n="whyCon3Title">Safety First</h3><p data-i18n="whyCon3Desc">Strict adherence to OSHA standards and Oman labor safety regulations. All workers undergo regular safety training and use proper PPE on every site.</p></div>
+                <div class="feature-box fade-in"><i class="fas fa-clock"></i><h3 data-i18n="whyCon4Title">On-Time Delivery</h3><p data-i18n="whyCon4Desc">Proven track record of completing projects within agreed timelines. Our integrated manpower and construction services ensure no delays due to labor shortages.</p></div>
+                <div class="feature-box fade-in"><i class="fas fa-hand-holding-usd"></i><h3 data-i18n="whyCon5Title">Transparent Pricing</h3><p data-i18n="whyCon5Desc">Detailed quotations with no hidden costs. We provide material specifications and labor breakdowns so you know exactly what you're paying for.</p></div>
+                <div class="feature-box fade-in"><i class="fas fa-tools"></i><h3 data-i18n="whyCon6Title">End-to-End Service</h3><p data-i18n="whyCon6Desc">From initial construction to final finishing touches, we handle everything. No need to coordinate multiple contractors—we are your single point of contact.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS CAROUSEL -->
+    <section id="projects" style="background: #fafafa; padding: 5rem 2rem;">
+        <div class="container fade-in">
+            <h2 class="section-title" data-i18n="projectsTitle">Our Completed Projects</h2>
+            <p class="section-subtitle" data-i18n="projectsSubtitle">Browse our portfolio of residential, commercial, and industrial builds across Oman.</p>
+            <div class="carousel-container">
+                <button class="carousel-btn prev" aria-label="Previous project"><i class="fas fa-chevron-left"></i></button>
+                <div class="carousel-track">
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Villa"><div class="slide-overlay"><h3>Luxury Residential Villa</h3><p>Muscat | 2023</p></div></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=800&h=600&fit=crop" alt="Office"><div class="slide-overlay"><h3>Commercial Office Complex</h3><p>Seeb | 2024</p></div></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop" alt="Warehouse"><div class="slide-overlay"><h3>Industrial Warehouse</h3><p>Rusayl | 2022</p></div></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop" alt="Fit-out"><div class="slide-overlay"><h3>Premium Interior Fit-Out</h3><p>Muttrah | 2023</p></div></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop" alt="Paving"><div class="slide-overlay"><h3>External Landscaping & Paving</h3><p>Bawshar | 2024</p></div></div>
+                    <div class="carousel-slide"><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=800&h=600&fit=crop" alt="Construction"><div class="slide-overlay"><h3>Multi-Unit Residential Block</h3><p>Al Khoudh | 2023</p></div></div>
+                </div>
+                <button class="carousel-btn next" aria-label="Next project"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about">
+        <div class="container fade-in">
+            <h2 class="section-title" data-i18n="aboutTitle">About Al Rayaan</h2>
+            <p class="section-subtitle" data-i18n="aboutSubtitle">Building Oman's future with quality construction and reliable workforce solutions since 2014.</p>
+            
+            <div class="about-content">
+                <div class="about-image fade-in">
+                    <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=800&h=600&fit=crop" alt="Construction Team">
+                    <div class="experience-badge"><h3>150+</h3><p data-i18n="projectsCompletedBadge">Projects<br>Completed</p></div>
+                </div>
+                <div class="about-text fade-in">
+                    <h3 data-i18n="aboutHeading">Your Trusted Construction Partner in Oman</h3>
+                    <p data-i18n="aboutP1">Al Rayaan Contracting & Construction has established itself as a leading construction and manpower supply company in Oman. From residential villas to commercial complexes, we deliver turnkey construction solutions that combine structural integrity with aesthetic excellence. Our integrated approach means we handle everything from groundbreaking to final handover.</p>
+                    <p data-i18n="aboutP2">What sets us apart is our dual expertise: we don't just supply skilled workers—we deploy them on our own construction projects. This ensures rigorous quality control, consistent safety standards, and accountability at every stage. Our teams include certified engineers, experienced supervisors, and specialized tradespeople who understand Oman's unique building requirements.</p>
+                    
+                    <div class="construction-stats">
+                        <div class="con-stat"><i class="fas fa-building"></i><div><h4>50,000+</h4><span data-i18n="statSqmBuilt">Sqm Built</span></div></div>
+                        <div class="con-stat"><i class="fas fa-hard-hat"></i><div><h4>200+</h4><span data-i18n="statWorkers">Skilled Workers</span></div></div>
+                        <div class="con-stat"><i class="fas fa-home"></i><div><h4>80+</h4><span data-i18n="statVillas">Villas Delivered</span></div></div>
+                        <div class="con-stat"><i class="fas fa-award"></i><div><h4>100%</h4><span data-i18n="statCompliance">Code Compliant</span></div></div>
+                    </div>
+
+                    <ul class="features-list">
+                        <li><i class="fas fa-check-circle"></i><span data-i18n="feature1">Licensed by Oman Ministry of Housing & Urban Planning</span></li>
+                        <li><i class="fas fa-check-circle"></i><span data-i18n="feature2">ISO 9001:2015 & ISO 45001:2018 Certified</span></li>
+                        <li><i class="fas fa-check-circle"></i><span data-i18n="feature3">In-house Engineering & Project Management Team</span></li>
+                        <li><i class="fas fa-check-circle"></i><span data-i18n="feature4">Comprehensive Insurance & Warranty Coverage</span></li>
+                        <li><i class="fas fa-check-circle"></i><span data-i18n="feature5">Own Fleet of Construction Equipment & Vehicles</span></li>
+                    </ul>
+                    <a href="#contact" class="btn" style="margin-top: 2rem;"><span data-i18n="startProject">Start Your Project</span> <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="capabilities-section fade-in">
+                <h3 data-i18n="capabilitiesTitle">Our Construction Capabilities</h3>
+                <div class="capabilities-grid">
+                    <div class="capability-item"><div class="capability-icon"><i class="fas fa-home"></i></div><h4 data-i18n="cap1Title">Residential Construction</h4><p data-i18n="cap1Desc">Custom villas, townhouses, and apartment buildings with modern designs tailored to Omani families.</p></div>
+                    <div class="capability-item"><div class="capability-icon"><i class="fas fa-building"></i></div><h4 data-i18n="cap2Title">Commercial Projects</h4><p data-i18n="cap2Desc">Office buildings, retail spaces, and warehouses built to international commercial standards.</p></div>
+                    <div class="capability-item"><div class="capability-icon"><i class="fas fa-industry"></i></div><h4 data-i18n="cap3Title">Industrial Facilities</h4><p data-i18n="cap3Desc">Factories, workshops, and storage facilities with heavy-duty flooring and specialized installations.</p></div>
+                    <div class="capability-item"><div class="capability-icon"><i class="fas fa-paint-roller"></i></div><h4 data-i18n="cap4Title">Fit-Out & Renovation</h4><p data-i18n="cap4Desc">Complete interior fit-outs, remodeling, and upgrades for existing residential and commercial spaces.</p></div>
+                    <div class="capability-item"><div class="capability-icon"><i class="fas fa-road"></i></div><h4 data-i18n="cap5Title">External Works</h4><p data-i18n="cap5Desc">Landscaping, boundary walls, driveways, interlocking pavers, and external infrastructure.</p></div>
+                    <div class="capability-item"><div class="capability-icon"><i class="fas fa-tools"></i></div><h4 data-i18n="cap6Title">Maintenance & Repairs</h4><p data-i18n="cap6Desc">Annual maintenance contracts, emergency repairs, and building condition assessments.</p></div>
+                </div>
+            </div>
+
+            <div class="quality-promise fade-in">
+                <i class="fas fa-award"></i>
+                <h3 data-i18n="promiseTitle">Our Quality Promise</h3>
+                <p data-i18n="promiseText">At Al Rayaan, we don't just build structures—we build trust. Every project undergoes rigorous quality inspections at key milestones: foundation, structure, MEP installation, and final finishing. We use only certified materials from approved suppliers, and our workmanship comes with a comprehensive warranty. Our goal is simple: deliver projects that exceed expectations and stand the test of time in Oman's demanding climate.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" style="background: #f8fafc;">
+        <div class="container fade-in">
+            <h2 class="section-title" data-i18n="contactTitle">Get In Touch</h2>
+            <p class="section-subtitle" data-i18n="contactSubtitle">Ready to discuss your project requirements? Contact us for a free consultation and quote.</p>
+            
+            <div class="contact-grid">
+                <div class="contact-info fade-in">
+                    <h3 data-i18n="contactInfoTitle">Contact Information</h3>
+                    <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><strong data-i18n="addressLabel">Address</strong><br>Al Khoudh, Al Seeb, Muscat, Sultanate of Oman</div></div>
+                    <div class="contact-item"><i class="fas fa-phone"></i><div><strong data-i18n="phoneLabel">Phone</strong><br>+968 9060 6216</div></div>
+                    <div class="contact-item"><i class="fas fa-envelope"></i><div><strong data-i18n="emailLabel">Email</strong><br>asemalmasry27@gmail.com</div></div>
+                    <div class="contact-item"><i class="fas fa-clock"></i><div><strong data-i18n="hoursLabel">Working Hours</strong><br>Sun - Thu: 8:00 AM - 6:00 PM<br>Sat: 9:00 AM - 1:00 PM</div></div>
+                </div>
+                <form id="contactForm" class="contact-form fade-in">
+                    <div class="form-group"><label data-i18n="formName">Full Name *</label><input type="text" name="name" required></div>
+                    <div class="form-group"><label data-i18n="formCompany">Company Name</label><input type="text" name="company"></div>
+                    <div class="form-group"><label data-i18n="formEmail">Email Address *</label><input type="email" name="email" required></div>
+                    <div class="form-group"><label data-i18n="formPhone">Phone Number *</label><input type="tel" name="phone" required></div>
+                    <div class="form-group"><label data-i18n="formService">Service Required *</label>
+                        <select name="service" required>
+                            <option value="">Select a service</option>
+                            <option value="Construction & Finishing">Construction & Finishing</option>
+                            <option value="Manpower Supply">Manpower Supply</option>
+                            <option value="Maintenance">Maintenance</option>
+                            <option value="Multiple Services">Multiple Services</option>
+                        </select>
+                    </div>
+                    <div class="form-group"><label data-i18n="formWorkers">Project Scope / Worker Count</label><textarea name="scope"></textarea></div>
+                    <button type="submit" class="submit-btn" id="submitBtn" data-i18n="formSubmit">Send Request</button>
+                    <p id="formMessage" style="text-align:center; margin-top:1rem; font-weight:500; display:none;"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <h3>Al <span style="color: var(--primary-gold);">Rayaan</span></h3>
+            <p style="margin: 1rem 0; opacity: 0.8;" data-i18n="footerDesc">Your trusted partner for construction and manpower supply services in Oman since 2014.</p>
+            <div class="footer-links">
+                <a href="#home" data-i18n="navHome">Home</a>
+                <a href="#services" data-i18n="navServices">Services</a>
+                <a href="#about" data-i18n="navAbout">About</a>
+                <a href="#contact" data-i18n="navContact">Contact</a>
+            </div>
+            <div class="copyright">© <span id="year"></span> Al Rayaan Contracting & Construction. All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- JAVASCRIPT -->
+    <script>
+        // 🌐 REPLACE WITH YOUR GOOGLE APPS SCRIPT WEBHOOK URL
+        const WEBHOOK_URL = "https://script.google.com/macros/s/YOUR_DEPLOYMENT_ID/exec";
+
+        // Form Submission Handler
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const btn = document.getElementById('submitBtn');
+            const msg = document.getElementById('formMessage');
+            const formData = new FormData(this);
+            const data = Object.fromEntries(formData.entries());
+
+            btn.disabled = true;
+            btn.textContent = currentLang === 'en' ? 'Sending...' : 'جاري الإرسال...';
+            msg.style.display = 'none';
+
+            try {
+                await fetch(WEBHOOK_URL, {
+                    method: 'POST',
+                    mode: 'no-cors', // Bypasses CORS for Google Apps Script
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                msg.textContent = currentLang === 'en' ? '✅ Request sent successfully! We\'ll contact you within 24 hours.' : '✅ تم إرسال الطلب بنجاح! سنتواصل معك خلال 24 ساعة.';
+                msg.style.color = 'var(--emerald)';
+                this.reset();
+            } catch (error) {
+                msg.textContent = currentLang === 'en' ? '❌ Failed to send. Please try again or call us directly.' : '❌ فشل الإرسال. يرجى المحاولة مرة أخرى أو الاتصال بنا مباشرة.';
+                msg.style.color = '#dc2626';
+            } finally {
+                msg.style.display = 'block';
+                btn.disabled = false;
+                btn.textContent = currentLang === 'en' ? 'Send Request' : 'إرسال الطلب';
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobileMenuBtn');
+        const navLinks = document.getElementById('navLinks');
+        mobileBtn.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            const icon = mobileBtn.querySelector('i');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking a link
+        navLinks.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => navLinks.classList.remove('active'));
+        });
+
+        // Language & Translations
+        const langToggle = document.getElementById('langToggle');
+        let currentLang = 'en';
+        
+        const translations = {
+            en: {
+                navHome: "Home", navServices: "Services", navProjects: "Projects", navAbout: "About", navContact: "Contact",
+                heroTitle: "Your Trusted Partner in Construction & Manpower", heroSubtitle: "Delivering quality projects and skilled workforce across Oman, tailored to residential, commercial, and industrial needs.", heroBtn: "Request Consultation",
+                statProjects: "Projects Completed", statSqm: "Sq Meters Built", statYears: "Years Experience",
+                badgeVerified: "Verified Workers", badgeChecked: "Background Checked", badgeQuick: "Quick Deployment",
+                servicesTitle: "Our Services", servicesSubtitle: "Comprehensive construction and manpower solutions across Oman.",
+                constructionServices: "Construction & Finishing", manpowerServices: "Manpower Supply",
+                serviceConstruction: "General Construction", serviceConstructionDesc: "Full-scale construction services from foundation to finishing. We handle residential villas, commercial buildings, and industrial facilities with precision engineering and quality materials that meet Oman Vision 2040 standards.",
+                featCon1: "Structural concrete work", featCon2: "Steel reinforcement", featCon3: "Masonry & block work",
+                serviceFinishing: "Interior & Exterior Finishing", serviceFinishingDesc: "Complete finishing solutions that transform structures into polished spaces. From gypsum works and false ceilings to exterior cladding and façade treatments, we ensure weather-resistant, aesthetically pleasing results.",
+                featFin1: "Gypsum & false ceiling", featFin2: "Wall cladding systems", featFin3: "Exterior façade work",
+                servicePainting: "Professional Painting", servicePaintingDesc: "Premium painting services for interiors and exteriors using weather-resistant, low-VOC paints suitable for Oman's climate. We deliver flawless finishes with proper surface preparation and protective coatings.",
+                featPaint1: "Interior & exterior painting", featPaint2: "Waterproof coatings", featPaint3: "Texture & decorative finishes",
+                serviceElectrical: "Electrical Works", serviceElectricalDesc: "Licensed electrical contracting services for new installations, upgrades, and maintenance. We comply with IEC standards and Oman regulations, ensuring safe, efficient power distribution for all building types.",
+                featElec1: "Complete wiring & distribution", featElec2: "Panel installation & upgrades", featElec3: "Lighting & smart home systems",
+                servicePlumbing: "Plumbing & Sanitary", servicePlumbingDesc: "Comprehensive plumbing installation and maintenance services. From water supply systems to drainage and sanitary fixtures, we ensure leak-free, code-compliant installations with quality materials.",
+                featPlumb1: "Water supply installation", featPlumb2: "Drainage & sewage systems", featPlumb3: "Fixture & sanitary ware",
+                serviceTiles: "Ceramic Tile Installation", serviceTilesDesc: "Expert tile installation for floors and walls using precision techniques. We handle all tile types including porcelain, ceramic, and large-format tiles with proper substrate preparation and waterproofing.",
+                featTile1: "Floor & wall tiling", featTile2: "Waterproof membranes", featTile3: "Custom patterns & designs",
+                serviceMarble: "Marble Composition", serviceMarbleDesc: "Premium marble and natural stone installation for luxury finishes. We specialize in marble flooring, wall cladding, and custom compositions with professional sealing and polishing for lasting elegance.",
+                featMarb1: "Marble flooring & walls", featMarb2: "Granite & natural stone", featMarb3: "Polishing & sealing",
+                servicePavers: "Interlocking Pavers", servicePaversDesc: "Professional installation of interlocking concrete pavers for driveways, walkways, and outdoor spaces. Proper base preparation and edge restraints ensure durable, flexible surfaces that withstand ground movement.",
+                featPav1: "Driveway & patio pavers", featPav2: "Permeable paving systems", featPav3: "Custom patterns & borders",
+                getQuote: "Get Quote", learnMore: "Learn More",
+                serviceCleaning: "Cleaning Services", serviceCleaningDesc: "Professional cleaners for residential, commercial, and industrial facilities. Trained in modern cleaning techniques and safety protocols.",
+                serviceHelpers: "General Helpers", serviceHelpersDesc: "Multi-skilled helpers for construction sites, warehouses, and logistics operations. Physically fit and safety-conscious.",
+                serviceDrivers: "Drivers", serviceDriversDesc: "Licensed drivers for light and heavy vehicles. Experienced in local routes with clean driving records and proper documentation.",
+                serviceSecurity: "Security Guards", serviceSecurityDesc: "Licensed security personnel trained in surveillance, access control, and emergency response for your premises protection.",
+                serviceMaintenance: "Maintenance Staff", serviceMaintenanceDesc: "Skilled technicians for electrical, plumbing, HVAC, and general maintenance works in commercial and residential buildings.",
+                serviceOffice: "Office Support", serviceOfficeDesc: "Office assistants, receptionists, and administrative staff to support your daily business operations efficiently.",
+                whyConstructionTitle: "Why Choose Our Construction Services?", whyConstructionSubtitle: "Quality craftsmanship backed by industry certifications and local expertise.",
+                whyCon1Title: "ISO Certified Quality", whyCon1Desc: "We follow ISO 9001:2015 quality management systems and ISO 45001:2018 safety standards, ensuring every project meets international benchmarks required for Oman Vision 2040 projects.",
+                whyCon2Title: "Skilled Workforce", whyCon2Desc: "Our teams include certified electricians, plumbers, and finishing specialists with extensive experience in Oman's construction sector and local building codes.",
+                whyCon3Title: "Safety First", whyCon3Desc: "Strict adherence to OSHA standards and Oman labor safety regulations. All workers undergo regular safety training and use proper PPE on every site.",
+                whyCon4Title: "On-Time Delivery", whyCon4Desc: "Proven track record of completing projects within agreed timelines. Our integrated manpower and construction services ensure no delays due to labor shortages.",
+                whyCon5Title: "Transparent Pricing", whyCon5Desc: "Detailed quotations with no hidden costs. We provide material specifications and labor breakdowns so you know exactly what you're paying for.",
+                whyCon6Title: "End-to-End Service", whyCon6Desc: "From initial construction to final finishing touches, we handle everything. No need to coordinate multiple contractors—we are your single point of contact.",
+                projectsTitle: "Our Completed Projects", projectsSubtitle: "Browse our portfolio of residential, commercial, and industrial builds across Oman.",
+                aboutTitle: "About Al Rayaan", aboutSubtitle: "Building Oman's future with quality construction and reliable workforce solutions since 2014.",
+                projectsCompletedBadge: "Projects<br>Completed", aboutHeading: "Your Trusted Construction Partner in Oman",
+                aboutP1: "Al Rayaan Contracting & Construction has established itself as a leading construction and manpower supply company in Oman. From residential villas to commercial complexes, we deliver turnkey construction solutions that combine structural integrity with aesthetic excellence. Our integrated approach means we handle everything from groundbreaking to final handover.",
+                aboutP2: "What sets us apart is our dual expertise: we don't just supply skilled workers—we deploy them on our own construction projects. This ensures rigorous quality control, consistent safety standards, and accountability at every stage. Our teams include certified engineers, experienced supervisors, and specialized tradespeople who understand Oman's unique building requirements.",
+                statSqmBuilt: "Sqm Built", statWorkers: "Skilled Workers", statVillas: "Villas Delivered", statCompliance: "Code Compliant",
+                feature1: "Licensed by Oman Ministry of Housing & Urban Planning", feature2: "ISO 9001:2015 & ISO 45001:2018 Certified", feature3: "In-house Engineering & Project Management Team", feature4: "Comprehensive Insurance & Warranty Coverage", feature5: "Own Fleet of Construction Equipment & Vehicles", startProject: "Start Your Project",
+                capabilitiesTitle: "Our Construction Capabilities",
+                cap1Title: "Residential Construction", cap1Desc: "Custom villas, townhouses, and apartment buildings with modern designs tailored to Omani families.",
+                cap2Title: "Commercial Projects", cap2Desc: "Office buildings, retail spaces, and warehouses built to international commercial standards.",
+                cap3Title: "Industrial Facilities", cap3Desc: "Factories, workshops, and storage facilities with heavy-duty flooring and specialized installations.",
+                cap4Title: "Fit-Out & Renovation", cap4Desc: "Complete interior fit-outs, remodeling, and upgrades for existing residential and commercial spaces.",
+                cap5Title: "External Works", cap5Desc: "Landscaping, boundary walls, driveways, interlocking pavers, and external infrastructure.",
+                cap6Title: "Maintenance & Repairs", cap6Desc: "Annual maintenance contracts, emergency repairs, and building condition assessments.",
+                promiseTitle: "Our Quality Promise", promiseText: "At Al Rayaan, we don't just build structures—we build trust. Every project undergoes rigorous quality inspections at key milestones: foundation, structure, MEP installation, and final finishing. We use only certified materials from approved suppliers, and our workmanship comes with a comprehensive warranty. Our goal is simple: deliver projects that exceed expectations and stand the test of time in Oman's demanding climate.",
+                contactTitle: "Get In Touch", contactSubtitle: "Ready to discuss your project requirements? Contact us for a free consultation and quote.",
+                contactInfoTitle: "Contact Information", addressLabel: "Address", phoneLabel: "Phone", emailLabel: "Email", hoursLabel: "Working Hours",
+                formName: "Full Name *", formCompany: "Company Name", formEmail: "Email Address *", formPhone: "Phone Number *", formService: "Service Required *", formWorkers: "Project Scope / Worker Count", formSubmit: "Send Request", footerDesc: "Your trusted partner for construction and manpower supply services in Oman since 2014."
+            },
+            ar: {
+                navHome: "الرئيسية", navServices: "الخدمات", navProjects: "مشاريعنا", navAbout: "عن الشركة", navContact: "اتصل بنا",
+                heroTitle: "شريكك الموثوق في الإنشاءات وتوريد العمالة", heroSubtitle: "نقدم مشاريع عالية الجودة وقوى عاملة ماهرة في جميع أنحاء عمان، مصممة لتلبية الاحتياجات السكنية والتجارية والصناعية.", heroBtn: "طلب استشارة",
+                statProjects: "مشروع منجز", statSqm: "متر مربع مبني", statYears: "سنوات خبرة",
+                badgeVerified: "عمالة موثقة", badgeChecked: "فحص خلفيات", badgeQuick: "نشر سريع",
+                servicesTitle: "خدماتنا", servicesSubtitle: "حلول إنشائية وتوريد عمالة شاملة في جميع أنحاء عمان.",
+                constructionServices: "البناء والتشطيب", manpowerServices: "توريد القوى العاملة",
+                serviceConstruction: "البناء العام", serviceConstructionDesc: "خدمات بناء كاملة من الأساسات إلى التشطيب. نتعامل مع الفلل السكنية والمباني التجارية والمنشآت الصناعية بهندسة دقيقة ومواد عالية الجودة تلبي معايير رؤية عمان 2040.",
+                featCon1: "أعمال الخرسانة الإنشائية", featCon2: "تسليح الحديد", featCon3: "أعمال البناء والبلوك",
+                serviceFinishing: "التشطيب الداخلي والخارجي", serviceFinishingDesc: "حلول تشطيب كاملة تحول الهياكل إلى مساحات أنيقة. من أعمال الجبس والأسقف المعلقة إلى الكسوة الخارجية ومعالجات الواجهات، نضمن نتائج مقاومة للعوامل الجوية وجذابة جمالياً.",
+                featFin1: "الجبس والأسقف المعلقة", featFin2: "أنظمة الكسوة الجدارية", featFin3: "أعمال الواجهة الخارجية",
+                servicePainting: "الدهان الاحترافي", servicePaintingDesc: "خدمات دهان متميزة للداخل والخارج باستخدام دهانات مقاومة للعوامل الجوية ومنخفضة المركبات العضوية تناسب مناخ عمان. نقدم تشطيبات مثالية مع تحضير سطحي سليم وطلاءات واقية.",
+                featPaint1: "دهان داخلي وخارجي", featPaint2: "طلاءات مقاومة للماء", featPaint3: "تشطيبات نسيجية وزخرفية",
+                serviceElectrical: "الأعمال الكهربائية", serviceElectricalDesc: "خدمات مقاولات كهربائية مرخصة للتركيبات الجديدة والترقيات والصيانة. نلتزم بمعايير IEC وأنظمة عمان، مما يضمن توزيعاً كهربائياً آمناً وفعالاً لجميع أنواع المباني.",
+                featElec1: "الأسلاك والتوزيع الكامل", featElec2: "تركيب وترقية اللوحات", featElec3: "أنظمة الإضاءة والمنازل الذكية",
+                servicePlumbing: "السباكة والصحية", servicePlumbingDesc: "خدمات شاملة لتركيب وصيانة السباكة. من أنظمة إمداد المياه إلى الصرف والأدوات الصحية، نضمن تركيبات خالية من التسرب ومتوافقة مع الأكواد باستخدام مواد عالية الجودة.",
+                featPlumb1: "تركيب إمداد المياه", featPlumb2: "أنظمة الصرف والمجاري", featPlumb3: "الأدوات والأدوات الصحية",
+                serviceTiles: "تركيب السيراميك", serviceTilesDesc: "تركيب خبير للبلاط للأرضيات والجدران باستخدام تقنيات دقيقة. نتعامل مع جميع أنواع البلاط بما في ذلك البورسلين والسيراميك والبلاطات الكبيرة مع تحضير أساسي سليم وعزل مائي.",
+                featTile1: "بلاط أرضيات وجدران", featTile2: "أغشية عازلة للماء", featTile3: "أنماط وتصاميم مخصصة",
+                serviceMarble: "أعمال الرخام", serviceMarbleDesc: "تركيب رخام وحجر طبيعي فاخر للتشطيبات الفاخرة. نتخصص في أرضيات الرخام وكسوة الجدران والتكوينات المخصصة مع سد احترافي وتلميع للأناقة الدائمة.",
+                featMarb1: "أرضيات وجدران رخام", featMarb2: "الجرانيت والحجر الطبيعي", featMarb3: "التلميع والسد",
+                servicePavers: "بلاط الإنترلوك", servicePaversDesc: "تركيب احترافي للبلاط الخرساني المتشابك للممرات والمساحات الخارجية. يضمن تحضير الأساس السليم والقيود الحافية أسطح مرنة ودائمة تتحمل حركة الأرض.",
+                featPav1: "بلاط الممرات والفناء", featPav2: "أنظمة رصف نفاذة", featPav3: "أنماط وحدود مخصصة",
+                getQuote: "احصل على عرض", learnMore: "اعرف المزيد",
+                serviceCleaning: "خدمات التنظيف", serviceCleaningDesc: "منظفون محترفون للمنشآت السكنية والتجارية والصناعية. مدربون على تقنيات التنظيف الحديثة وبروتوكولات السلامة.",
+                serviceHelpers: "العمالة المساعدة", serviceHelpersDesc: "عمالة متعددة المهارات لمواقع الإنشاءات والمستودعات والخدمات اللوجستية. لائقون بدنياً وواعون بالسلامة.",
+                serviceDrivers: "السائقون", serviceDriversDesc: "سائقون مرخصون للمركبات الخفيفة والثقيلة بخبرة في الطرق المحلية وسجلات قيادة نظيفة ووثائق صحيحة.",
+                serviceSecurity: "حراس الأمن", serviceSecurityDesc: "أمن مرخص مدرب على المراقبة والتحكم في الدخول والاستجابة للطوارئ لحماية مبانيك.",
+                serviceMaintenance: "فنيو الصيانة", serviceMaintenanceDesc: "فنيون مهرة للأعمال الكهربائية والسباكة والتكييف والصيانة العامة في المباني التجارية والسكنية.",
+                serviceOffice: "الدعم المكتبي", serviceOfficeDesc: "مساعدين إداريين وموظفي استقبال لدعم عمليات عملك اليومية بكفاءة.",
+                whyConstructionTitle: "لماذا تختار خدماتنا الإنشائية؟", whyConstructionSubtitle: "حرفية عالية الجودة مدعومة بالشهادات الصناعية والخبرة المحلية.",
+                whyCon1Title: "جودة معتمدة ISO", whyCon1Desc: "نتبع أنظمة إدارة الجودة ISO 9001:2015 ومعايير السلامة ISO 45001:2018، مما يضمن أن كل مشروع يلبي المعايير الدولية المطلوبة لمشاريع رؤية عمان 2040.",
+                whyCon2Title: "قوى عاملة ماهرة", whyCon2Desc: "تضم فرقنا كهربائيين وسباكين ومتخصصين في التشطيب معتمدين بخبرة واسعة في قطاع الإنشاءات العماني وأكواد البناء المحلية.",
+                whyCon3Title: "السلامة أولاً", whyCon3Desc: "الالتزام الصارم بمعايير OSHA وأنظمة السلامة العمالية العمانية. يخضع جميع العمال لتدريب منتظم على السلامة ويستخدمون معدات الوقاية الشخصية المناسبة في كل موقع.",
+                whyCon4Title: "التسليم في الوقت المحدد", whyCon4Desc: "سجل حافل بإنجاز المشاريع ضمن الجداول الزمنية المتفق عليها. خدماتنا المتكاملة للقوى العاملة والإنشاءات تضمن عدم وجود تأخيرات بسبب نقص العمالة.",
+                whyCon5Title: "أسعار شفافة", whyCon5Desc: "عروض أسعار مفصلة بدون تكاليف خفية. نقدم مواصفات المواد وتفاصيل العمالة حتى تعرف بالضبط ما تدفع ثمنه.",
+                whyCon6Title: "خدمة شاملة", whyCon6Desc: "من البناء الأولي إلى اللمسات النهائية، نتعامل مع كل شيء. لا حاجة لتنسيق مقاولين متعددين - نحن نقطة الاتصال الوحيدة الخاصة بك.",
+                projectsTitle: "مشاريعنا المنجزة", projectsSubtitle: "استعرض معرضنا للمباني السكنية والتجارية والصناعية عبر عمان.",
+                aboutTitle: "عن الرايان", aboutSubtitle: "نبني مستقبل عمان بحلول إنشائية عالية الجودة وقوى عاملة موثوقة منذ عام 2014.",
+                projectsCompletedBadge: "مشروع<br>منجز", aboutHeading: "شريكك الموثوق في الإنشاءات في عمان",
+                aboutP1: "أسست شركة الرايان للمقاولات والإنشاءات مكانتها كشركة رائدة في مجال الإنشاءات وتوريد القوى العاملة في عمان. من الفلل السكنية إلى المجمعات التجارية، نقدم حلول بناء متكاملة تجمع بين المتانة الإنشائية والتميز الجمالي. يعني نهجنا المتكامل أننا نتعامل مع كل شيء من وضع حجر الأساس إلى التسليم النهائي.",
+                aboutP2: "ما يميزنا هو خبرتنا المزدوجة: لا نقدم فقط العمالة الماهرة - بل نستخدمها في مشاريعنا الإنشائية الخاصة. وهذا يضمن رقابة صارمة على الجودة ومعايير سلامة متسقة والمساءلة في كل مرحلة. تشمل فرقنا مهندسين معتمدين ومشرفين ذوي خبرة وعمال متخصصين يفهمون متطلبات البناء الفريدة في عمان.",
+                statSqmBuilt: "متر مربع مبني", statWorkers: "عامل ماهر", statVillas: "فيلا مسلمة", statCompliance: "متوافق مع الأكواد",
+                feature1: "مرخصة من وزارة الإسكان والتخطيط العمراني العمانية", feature2: "معتمدة ISO 9001:2015 و ISO 45001:2018", feature3: "فريق هندسة وإدارة مشاريع داخلي", feature4: "تغطية تأمينية وضمان شاملة", feature5: "أسطول خاص بمعدات ومركبات الإنشاءات", startProject: "ابدأ مشروعك",
+                capabilitiesTitle: "قدراتنا الإنشائية",
+                cap1Title: "البناء السكني", cap1Desc: "فلل مخصصة ومنازل متصلة ومباني سكنية بتصاميم عصرية تناسب الأسر العمانية.",
+                cap2Title: "المشاريع التجارية", cap2Desc: "مباني مكاتب ومساحات تجارية ومستودعات مبنية وفق المعايير التجارية الدولية.",
+                cap3Title: "المنشآت الصناعية", cap3Desc: "مصانع وورش ومنشآت تخزين بأرضيات ثقيلة وتركيبات متخصصة.",
+                cap4Title: "التشطيب والتجديد", cap4Desc: "تشطيبات داخلية كاملة وإعادة تصميم وترقيات للمساحات السكنية والتجارية الموجودة.",
+                cap5Title: "الأعمال الخارجية", cap5Desc: "المناظر الطبيعية والأسوار والممرات والبلاط المتشابك والبنية التحتية الخارجية.",
+                cap6Title: "الصيانة والإصلاحات", cap6Desc: "عقود صيانة سنوية وإصلاحات طارئة وتقييمات لحالة المباني.",
+                promiseTitle: "وعدنا بالجودة", promiseText: "في الرايان، لا نبني مجرد هياكل - نبني الثقة. يخضع كل مشروع لفحوصات جودة صارمة في مراحل رئيسية: الأساس والهيكل والتركيبات الكهروميكانيكية والتشطيب النهائي. نستخدم فقط مواد معتمدة من موردين معتمدين، وعملنا يأتي مع ضمان شامل. هدفنا بسيط: تسليم مشاريع تتجاوز التوقعات وتصمد أمام اختبار الزمن في مناخ عمان القاسي.",
+                contactTitle: "اتصل بنا", contactSubtitle: "هل أنت مستعد لمناقشة متطلبات مشروعك؟ تواصل معنا للحصول على استشارة مجانية.",
+                contactInfoTitle: "معلومات الاتصال", addressLabel: "العنوان", phoneLabel: "الهاتف", emailLabel: "البريد الإلكتروني", hoursLabel: "ساعات العمل",
+                formName: "الاسم الكامل *", formCompany: "اسم الشركة", formEmail: "البريد الإلكتروني *", formPhone: "رقم الهاتف *", formService: "الخدمة المطلوبة *", formWorkers: "نطاق المشروع / عدد العمال", formSubmit: "إرسال الطلب", footerDesc: "شريكك الموثوق لخدمات الإنشاءات وتوريد العمالة في عمان منذ عام 2014."
+            }
+        };
+
+        langToggle.addEventListener('click', () => {
+            currentLang = currentLang === 'en' ? 'ar' : 'en';
+            document.documentElement.lang = currentLang;
+            document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
+            langToggle.textContent = currentLang === 'en' ? 'العربية' : 'English';
+            applyTranslations();
+        });
+
+        function applyTranslations() {
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (translations[currentLang][key]) el.innerHTML = translations[currentLang][key];
+            });
+        }
+
+        // Carousel Logic
+        const track = document.querySelector('.carousel-track');
+        if (track) {
+            const prev = document.querySelector('.carousel-btn.prev');
+            const next = document.querySelector('.carousel-btn.next');
+            const slideWidth = track.querySelector('.carousel-slide').offsetWidth + 24;
+            if(prev && next) {
+                prev.addEventListener('click', () => track.scrollBy({ left: -slideWidth, behavior: 'smooth' }));
+                next.addEventListener('click', () => track.scrollBy({ left: slideWidth, behavior: 'smooth' }));
+            }
+        }
+
+        // Intersection Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('visible'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
